@@ -1,0 +1,13 @@
+<html>
+    <body>
+        <canvas id="canvas" width="800" height="500"></canvas>
+        <script src="./pingpong.js"></script>
+        <br>
+        <button onclick="zerarPlacar();">Zerar Placar</button>
+        <form onsubmit="event.preventDefault(); mudarVelocidade()">
+            <input type="number" id="velocidade">
+            Velocidade de 1 a 100 fps
+            <button>Mudar Velocidade</button>
+        </form>
+    </body>
+</html>
